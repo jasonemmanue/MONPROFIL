@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emmanuel Sakam Fotsing | Développeur full-stack Flutter, Next.js, FastAPI</title>
+  <meta name="description" content="Portfolio d'Emmanuel Sakam Fotsing, ingénieur des travaux en informatique à Abidjan. Applications mobiles et web en Flutter, Next.js et FastAPI, avec paiement Mobile Money.">
+  <meta name="author" content="Emmanuel Sakam Fotsing">
+  <meta name="theme-color" content="#0A0D12">
+  <link rel="canonical" href="https://portfolio-production-d388.up.railway.app/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/photo.jpg">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="Emmanuel Sakam Fotsing | Développeur full-stack">
+  <meta property="og:description" content="Applications mobiles et web en Flutter, Next.js et FastAPI, avec paiement Mobile Money. Abidjan, Côte d'Ivoire.">
+  <meta property="og:url" content="https://portfolio-production-d388.up.railway.app/">
+  <meta property="og:image" content="https://portfolio-production-d388.up.railway.app/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function () {
+      var t;
+      try { t = localStorage.getItem("theme"); } catch (e) {}
+      if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+      document.documentElement.classList.add("js");
+    })();
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Emmanuel Sakam Fotsing",
+    "jobTitle": "Développeur full-stack mobile et web",
+    "email": "mailto:emmanuel.sakam@ensea.edu.ci",
+    "telephone": "+225 01 72 95 71 71",
+    "address": { "@type": "PostalAddress", "addressLocality": "Abidjan", "addressCountry": "CI" },
+    "alumniOf": "ENSEA d'Abidjan",
+    "sameAs": ["https://github.com/jasonemmanue"],
+    "knowsAbout": ["Flutter", "Next.js", "FastAPI", "Python", "Firebase", "Mobile Money", "Analyse de données"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#contenu">Aller au contenu</a>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 7 8.5 6 8.5-6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M21 16.4v3a2 2 0 0 1-2.2 2 19.6 19.6 0 0 1-8.5-3 19.3 19.3 0 0 1-6-6 19.6 19.6 0 0 1-3-8.6A2 2 0 0 1 3.3 1.6h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L7.3 9.4a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.5 2z"/></symbol>
+    <symbol id="i-github" viewBox="0 0 16 16"><path fill="currentColor" stroke="none" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.1-7-11a7 7 0 1 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-mobile" viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M11 18h2"/></symbol>
+    <symbol id="i-web" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9 9v11"/></symbol>
+    <symbol id="i-server" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="7" rx="1.5"/><rect x="3" y="13" width="18" height="7" rx="1.5"/><path d="M7 7.5h.01M7 16.5h.01"/></symbol>
+    <symbol id="i-card" viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="M2.5 10h19M6.5 15h4"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M3.5 3.5v17h17"/><path d="M8 16v-4.5M12.5 16V8M17 16V6"/></symbol>
+    <symbol id="i-brief" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7M3 12.5h18"/></symbol>
+  </svg>
+
+  <header class="nav">
+    <div class="wrap nav-in">
+      <a class="brand" href="#top" aria-label="Retour en haut de page">
+        <span class="mark">ES</span>
+        <span class="brand-name">Emmanuel Sakam</span>
+      </a>
+      <nav class="links" id="menu" aria-label="Navigation principale">
+        <a href="#projets">Projets</a>
+        <a href="#methode">Méthode</a>
+        <a href="#parcours">Parcours</a>
+        <a href="#competences">Compétences</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme" type="button" aria-label="Basculer entre thème clair et thème sombre">
+          <svg class="i i-sun"><use href="#i-sun"/></svg>
+          <svg class="i i-moon"><use href="#i-moon"/></svg>
+        </button>
+        <a class="btn btn-sm btn-primary nav-cv" href="assets/CV_Emmanuel_Sakam_Fotsing.pdf" download>
+          <svg class="i"><use href="#i-down"/></svg>CV
+        </a>
+        <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu">
+          <svg class="i"><use href="#i-menu"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="hero" id="top">
+      <div class="bg-grid" aria-hidden="true"></div>
+      <div class="bg-glow" aria-hidden="true"></div>
+      <div class="wrap hero-in">
+        <div class="hero-text">
+          <p class="status"><span class="dot" aria-hidden="true"></span>Disponible pour hackathons et missions</p>
+          <h1>Emmanuel <span class="l2">Sakam Fotsing</span></h1>
+          <p class="role">Développeur full-stack mobile et web</p>
+          <p class="lead">
+            Ingénieur des travaux en informatique basé à Abidjan. Je conçois et mets en production
+            des applications Flutter, Next.js et FastAPI, avec paiement Mobile Money intégré,
+            pour des entreprises et des institutions ivoiriennes.
+          </p>
+          <div class="cta">
+            <a class="btn btn-primary" href="#projets">Voir mes projets<svg class="i"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn-ghost" href="assets/CV_Emmanuel_Sakam_Fotsing.pdf" download><svg class="i"><use href="#i-down"/></svg>Télécharger le CV</a>
+          </div>
+          <div class="hero-stack">
+            <span class="stack-label">Stack principale</span>
+            <ul aria-label="Technologies principales">
+              <li>Flutter</li><li>Next.js</li><li>FastAPI</li><li>Python</li><li>Firebase</li><li>PostgreSQL</li><li>GeniusPay</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="orbit" aria-hidden="true"></div>
+          <div class="portrait">
+            <picture>
+              <source srcset="assets/photo.webp" type="image/webp">
+              <img src="assets/photo.jpg" alt="Portrait d'Emmanuel Sakam Fotsing" width="410" height="410" fetchpriority="high">
+            </picture>
+          </div>
+          <div class="float-card card-a">
+            <span class="k">Lauréat</span>
+            <span class="v">Moov Innovation 2026</span>
+          </div>
+          <div class="float-card card-b">
+            <span class="k">En formation</span>
+            <span class="v">ENSEA d'Abidjan</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <dl class="stats reveal">
+          <div><dt>4</dt><dd>TPE de services digitalisées à Abidjan</dd></div>
+          <div><dt>3</dt><dd>opérateurs Mobile Money intégrés : Orange, MTN, Wave</dd></div>
+          <div><dt>Web + mobile</dt><dd>Prepaxia, SaaS en production depuis mai 2026</dd></div>
+          <div><dt>Lauréat</dt><dd>Concours Moov Innovation 2026 avec AgriSmart CI</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section wrap" id="projets">
+      <div class="section-head reveal">
+        <p class="kicker">01 / Projets</p>
+        <h2>Réalisations récentes</h2>
+        <p class="sub">Des applications utilisées par de vrais clients, que j'ai menées du cadrage jusqu'à la mise en ligne.</p>
+      </div>
+
+      <div class="projects">
+        <article class="project featured reveal">
+          <div class="p-body">
+            <div class="p-meta"><span class="p-tag">SaaS en production</span><span class="p-date">Depuis mai 2026</span></div>
+            <h3>Prepaxia</h3>
+            <p class="p-role">Concepteur-développeur</p>
+            <p class="desc">
+              Plateforme web et mobile de préparation aux concours : cours, concours blancs et assistant IA.
+              Les candidats règlent leur abonnement par Mobile Money (Orange, MTN, Wave) ou par carte via GeniusPay.
+            </p>
+            <ul class="p-points">
+              <li>Application Android et iOS, application web, site vitrine et back-office d'administration</li>
+              <li>Paiement en ligne et gestion des abonnements par formule</li>
+              <li>Assistant IA intégré aux révisions</li>
+            </ul>
+            <ul class="chips">
+              <li>Flutter</li><li>Next.js</li><li>FastAPI</li><li>PostgreSQL</li><li>Redis</li><li>Firebase</li><li>GeniusPay</li>
+            </ul>
+            <a class="p-link" href="https://webapp.prepaxia.com" target="_blank" rel="noopener">webapp.prepaxia.com<svg class="i"><use href="#i-arrow"/></svg></a>
+          </div>
+
+          <figure class="arch" aria-label="Architecture technique de Prepaxia">
+            <figcaption class="arch-label">Architecture</figcaption>
+            <div class="arch-row">
+              <span class="node">App mobile<small>Flutter</small></span>
+              <span class="node">App web<small>Flutter Web</small></span>
+              <span class="node">Back-office<small>Next.js</small></span>
+              <span class="node">Site vitrine<small>Next.js</small></span>
+            </div>
+            <div class="arch-link" aria-hidden="true"></div>
+            <div class="node node-core">API REST<small>FastAPI · Python</small></div>
+            <div class="arch-link" aria-hidden="true"></div>
+            <div class="arch-row arch-row-5">
+              <span class="node">PostgreSQL<small>données</small></span>
+              <span class="node">Redis<small>cache</small></span>
+              <span class="node">Firebase<small>auth</small></span>
+              <span class="node">GeniusPay<small>paiement</small></span>
+              <span class="node">IA<small>assistant</small></span>
+            </div>
+          </figure>
+        </article>
+
+        <article class="project reveal">
+          <div class="p-meta"><span class="p-tag">Concours · Lauréat</span><span class="p-date">Décembre 2025</span></div>
+          <h3>AgriSmart CI</h3>
+          <p class="p-role">Développeur · Concours Moov Innovation 2026, Moov Africa</p>
+          <p class="desc">
+            Application mobile pour les petits producteurs agricoles : diagnostic des maladies des plantes par IA,
+            météo et marketplace pour écouler les récoltes.
+          </p>
+          <ul class="chips"><li>Flutter</li><li>FastAPI</li><li>MongoDB</li><li>IA</li></ul>
+        </article>
+
+        <article class="project reveal">
+          <div class="p-meta"><span class="p-tag">Institution</span><span class="p-date">Juillet - septembre 2026</span></div>
+          <h3>Port Autonome d'Abidjan</h3>
+          <p class="p-role">Développeur</p>
+          <p class="desc">
+            Application web d'analyse des temps de traversée portuaires, outils de veille stratégique
+            et génération automatique des rapports de suivi, pour l'aide à la décision.
+          </p>
+          <ul class="chips"><li>Next.js</li><li>TypeScript</li><li>FastAPI</li><li>PostgreSQL</li><li>pandas</li></ul>
+        </article>
+
+        <article class="project project-wide reveal">
+          <div class="p-body">
+            <div class="p-meta"><span class="p-tag">Freelance · 4 sites en ligne</span><span class="p-date">Depuis juillet 2026</span></div>
+            <h3>Digitalisation de TPE à Abidjan</h3>
+            <p class="p-role">Développeur freelance</p>
+            <p class="desc">
+              Quatre entreprises de services équipées d'un site complet : vitrine, réservation en ligne,
+              acompte par Mobile Money et back-office pour que le gérant suive son activité.
+              Les quatre sites tournent sur leur propre nom de domaine.
+            </p>
+            <ul class="chips"><li>Next.js</li><li>TypeScript</li><li>FastAPI</li><li>PostgreSQL</li><li>GeniusPay</li></ul>
+          </div>
+          <ul class="clients" aria-label="Sites clients en ligne">
+            <li>
+              <a href="https://www.florahair.online" target="_blank" rel="noopener" aria-label="Flora Hair, salon de coiffure, ouvrir le site">
+                <span class="c-top"><span class="c-n">01</span><svg class="i"><use href="#i-arrow"/></svg></span>
+                <span class="c-name">Flora Hair</span>
+                <span class="c-type">Salon de coiffure</span>
+                <span class="c-url">florahair.online</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.esliesport.com" target="_blank" rel="noopener" aria-label="Eslie Sport, salle de sport, ouvrir le site">
+                <span class="c-top"><span class="c-n">02</span><svg class="i"><use href="#i-arrow"/></svg></span>
+                <span class="c-name">Eslie Sport</span>
+                <span class="c-type">Salle de sport</span>
+                <span class="c-url">esliesport.com</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.chicresidencemeublee.com" target="_blank" rel="noopener" aria-label="Chic Résidence Meublée, résidences meublées, ouvrir le site">
+                <span class="c-top"><span class="c-n">03</span><svg class="i"><use href="#i-arrow"/></svg></span>
+                <span class="c-name">Chic Résidence Meublée</span>
+                <span class="c-type">Résidences meublées</span>
+                <span class="c-url">chicresidencemeublee.com</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.ruah-statistics.com" target="_blank" rel="noopener" aria-label="Ruah-Statistics, cabinet d'études, ouvrir le site">
+                <span class="c-top"><span class="c-n">04</span><svg class="i"><use href="#i-arrow"/></svg></span>
+                <span class="c-name">Ruah-Statistics</span>
+                <span class="c-type">Cabinet d'études</span>
+                <span class="c-url">ruah-statistics.com</span>
+              </a>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wrap" id="methode">
+      <div class="section-head reveal">
+        <p class="kicker">02 / Méthode</p>
+        <h2>Une journée pour livrer une application qui fonctionne</h2>
+        <p class="sub">En hackathon, j'applique ce que je fais déjà en production : peu d'écrans, un parcours complet de bout en bout et une démo en ligne.</p>
+      </div>
+      <ol class="steps">
+        <li class="step reveal">
+          <span class="n">01</span>
+          <h3>Cadrer</h3>
+          <p>Un utilisateur cible, un parcours prioritaire et une maquette validée avec l'équipe avant la première ligne de code.</p>
+          <p class="proof">Appuyé sur : diagnostic digital de 4 TPE</p>
+        </li>
+        <li class="step reveal">
+          <span class="n">02</span>
+          <h3>Construire</h3>
+          <p>Interface Flutter ou Next.js, API FastAPI ou Firebase selon le délai. Le modèle de données est posé dès la première heure.</p>
+          <p class="proof">Appuyé sur : AgriSmart CI, Prepaxia</p>
+        </li>
+        <li class="step reveal">
+          <span class="n">03</span>
+          <h3>Connecter</h3>
+          <p>Authentification, notifications et paiement Mobile Money quand le cas d'usage le demande.</p>
+          <p class="proof">Appuyé sur : GeniusPay, Orange, MTN, Wave, carte</p>
+        </li>
+        <li class="step reveal">
+          <span class="n">04</span>
+          <h3>Livrer</h3>
+          <p>Application en ligne avec un lien public, démo testée sur téléphone et indicateurs clés prêts pour le jury.</p>
+          <p class="proof">Appuyé sur : tableaux de bord et rapports du PAA</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section wrap" id="parcours">
+      <div class="section-head reveal">
+        <p class="kicker">03 / Parcours</p>
+        <h2>Expérience et formation</h2>
+      </div>
+      <div class="cols">
+        <div class="reveal">
+          <h3 class="col-title">Expérience</h3>
+          <ol class="timeline">
+            <li class="tl-item">
+              <span class="tl-date">Depuis juillet 2026</span>
+              <h4>Développeur freelance</h4>
+              <p class="tl-org">Sites web de 4 TPE de services, Abidjan</p>
+              <p>Flora Hair, Eslie Sport, Chic Résidence Meublée et Ruah-Statistics : vitrine, réservation, acompte Mobile Money, back-office.</p>
+            </li>
+            <li class="tl-item">
+              <span class="tl-date">Juillet - septembre 2026</span>
+              <h4>Développeur</h4>
+              <p class="tl-org">Port Autonome d'Abidjan</p>
+              <p>Analyse des temps de traversée portuaires, veille stratégique et génération automatique des rapports de suivi.</p>
+            </li>
+            <li class="tl-item">
+              <span class="tl-date">Depuis mai 2026</span>
+              <h4>Concepteur-développeur</h4>
+              <p class="tl-org">Prepaxia, SaaS de préparation aux concours</p>
+              <p>Cours, concours blancs, assistant IA, paiements Mobile Money et carte via GeniusPay.</p>
+            </li>
+            <li class="tl-item">
+              <span class="tl-date">Décembre 2025</span>
+              <h4>Développeur, lauréat</h4>
+              <p class="tl-org">Concours Moov Innovation 2026, Moov Africa</p>
+              <p>AgriSmart CI : diagnostic IA des maladies des plantes, météo et marketplace, backend FastAPI et MongoDB.</p>
+            </li>
+          </ol>
+        </div>
+
+        <div class="reveal">
+          <h3 class="col-title">Formation</h3>
+          <div class="edu">
+            <article class="edu-card">
+              <span class="tl-date">2025 - 2028</span>
+              <h4>Analyste Statisticien</h4>
+              <p class="tl-org">ENSEA d'Abidjan</p>
+              <p>Statistique, économétrie, data science, enquêtes, suivi-évaluation, gestion de projets.</p>
+            </article>
+            <article class="edu-card">
+              <span class="tl-date">2022 - 2025</span>
+              <h4>Ingénieur des Travaux en Informatique</h4>
+              <p>Génie logiciel, développement web et mobile, systèmes d'information.</p>
+            </article>
+          </div>
+          <div class="mini">
+            <div class="mini-card">
+              <h3 class="col-title">Langues</h3>
+              <p>Français</p>
+              <p>Anglais <span class="muted">intermédiaire</span></p>
+            </div>
+            <div class="mini-card">
+              <h3 class="col-title">Intérêts</h3>
+              <p>Technologie, entrepreneuriat</p>
+              <p>Écriture, lecture</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="competences">
+      <div class="section-head reveal">
+        <p class="kicker">04 / Compétences</p>
+        <h2>Du code au terrain</h2>
+        <p class="sub">Je construis l'application, puis je mesure ce qu'elle apporte grâce à ma formation en statistique.</p>
+      </div>
+      <div class="skills">
+        <article class="skill reveal">
+          <span class="skill-ico"><svg class="i"><use href="#i-mobile"/></svg></span>
+          <h3>Mobile</h3>
+          <p>Applications Android et iOS à partir d'une seule base de code.</p>
+          <ul class="chips"><li>Flutter</li><li>Dart</li><li>Firebase</li><li>Notifications</li></ul>
+        </article>
+        <article class="skill reveal">
+          <span class="skill-ico"><svg class="i"><use href="#i-web"/></svg></span>
+          <h3>Web</h3>
+          <p>Sites, applications web et back-offices d'administration.</p>
+          <ul class="chips"><li>Next.js</li><li>React</li><li>TypeScript</li><li>Tailwind CSS</li></ul>
+        </article>
+        <article class="skill reveal">
+          <span class="skill-ico"><svg class="i"><use href="#i-server"/></svg></span>
+          <h3>Back-end et mise en ligne</h3>
+          <p>API, bases de données et déploiement continu.</p>
+          <ul class="chips"><li>Python</li><li>FastAPI</li><li>PostgreSQL</li><li>MongoDB</li><li>Git</li><li>Railway</li></ul>
+        </article>
+        <article class="skill reveal">
+          <span class="skill-ico"><svg class="i"><use href="#i-card"/></svg></span>
+          <h3>Paiement digital</h3>
+          <p>Encaissement en ligne adapté au marché ouest-africain.</p>
+          <ul class="chips"><li>GeniusPay</li><li>Orange Money</li><li>MTN MoMo</li><li>Wave</li><li>Carte bancaire</li></ul>
+        </article>
+        <article class="skill reveal">
+          <span class="skill-ico"><svg class="i"><use href="#i-chart"/></svg></span>
+          <h3>Données et suivi-évaluation</h3>
+          <p>Questionnaires, collecte mobile, indicateurs, tableaux de bord et rapports.</p>
+          <ul class="chips"><li>KoboToolbox</li><li>CSPro</li><li>Excel / VBA</li><li>KPI</li><li>LaTeX</li></ul>
+        </article>
+        <article class="skill reveal">
+          <span class="skill-ico"><svg class="i"><use href="#i-brief"/></svg></span>
+          <h3>Accompagnement des TPE</h3>
+          <p>Du diagnostic à la prise en main par le gérant.</p>
+          <ul class="chips"><li>Diagnostic digital</li><li>Présence en ligne</li><li>Formation</li><li>Coaching</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wrap" id="contact">
+      <div class="contact-card reveal">
+        <div class="contact-text">
+          <p class="kicker">05 / Contact</p>
+          <h2>Une équipe à compléter, une application à livrer ?</h2>
+          <p class="sub">Écrivez-moi ou appelez-moi directement. Je suis basé à Abidjan.</p>
+          <div class="cta">
+            <a class="btn btn-primary" href="mailto:emmanuel.sakam@ensea.edu.ci"><svg class="i"><use href="#i-mail"/></svg>Écrire un e-mail</a>
+            <a class="btn btn-ghost" href="assets/CV_Emmanuel_Sakam_Fotsing.pdf" download><svg class="i"><use href="#i-down"/></svg>CV en PDF</a>
+          </div>
+        </div>
+        <ul class="c-list">
+          <li class="c-item">
+            <span class="c-ico"><svg class="i"><use href="#i-mail"/></svg></span>
+            <span class="c-txt"><span class="c-k">E-mail</span><a class="c-v" href="mailto:emmanuel.sakam@ensea.edu.ci">emmanuel.sakam@ensea.edu.ci</a></span>
+            <button class="copy" type="button" data-copy="emmanuel.sakam@ensea.edu.ci" aria-label="Copier l'adresse e-mail">
+              <svg class="i ic-copy"><use href="#i-copy"/></svg><svg class="i ic-ok"><use href="#i-check"/></svg>
+            </button>
+          </li>
+          <li class="c-item">
+            <span class="c-ico"><svg class="i"><use href="#i-phone"/></svg></span>
+            <span class="c-txt"><span class="c-k">Téléphone</span><a class="c-v" href="tel:+2250172957171">+225 01 72 95 71 71</a></span>
+          </li>
+          <li class="c-item">
+            <span class="c-ico"><svg class="i"><use href="#i-github"/></svg></span>
+            <span class="c-txt"><span class="c-k">GitHub</span><a class="c-v" href="https://github.com/jasonemmanue" target="_blank" rel="noopener">github.com/jasonemmanue</a></span>
+          </li>
+          <li class="c-item">
+            <span class="c-ico"><svg class="i"><use href="#i-pin"/></svg></span>
+            <span class="c-txt"><span class="c-k">Localisation</span><span class="c-v">Abidjan, Côte d'Ivoire</span></span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>© <span id="year">2026</span> Emmanuel Sakam Fotsing</p>
+    <a href="#top">Retour en haut</a>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
