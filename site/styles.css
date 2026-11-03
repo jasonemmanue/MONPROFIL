@@ -298,11 +298,11 @@ button { font: inherit; }
 .step .n { font: 600 13px/1 var(--font-mono); color: var(--accent); }
 .step h3 { margin: 16px 0 10px; font-size: 22px; font-weight: 600; }
 .step p { color: var(--text-2); font-size: 15px; }
-.step .proof {
-  margin-top: auto; padding-top: 16px; border-top: 1px dashed var(--border-2);
-  font: 500 12.5px/1.5 var(--font-mono); color: var(--muted);
+.step .note {
+  margin-top: auto; padding-top: 14px; border-top: 1px solid var(--border);
+  font-size: 14px; line-height: 1.5; color: var(--muted);
 }
-.step p:not(.proof) { margin-bottom: 18px; }
+.step p:not(.note) { margin-bottom: 18px; }
 
 /* Parcours */
 .cols { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 56px; }

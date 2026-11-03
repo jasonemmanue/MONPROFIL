@@ -2,9 +2,9 @@
 
 **Développeur full-stack mobile et web · Abidjan, Côte d'Ivoire**
 
-Ingénieur des travaux en informatique et analyste statisticien en formation à l'ENSEA d'Abidjan.
-Je conçois et mets en production des applications Flutter, Next.js et FastAPI, avec paiement Mobile Money intégré,
-pour des entreprises et des institutions ivoiriennes.
+Je suis ingénieur des travaux en informatique et je poursuis une formation d'analyste statisticien à l'ENSEA d'Abidjan.
+Je développe des applications mobiles et web en Flutter, Next.js et FastAPI, je les mets en ligne
+et j'y branche le paiement Mobile Money quand le projet en a besoin.
 
 - **Portfolio :** https://portfolio-production-d388.up.railway.app
 - **E-mail :** emmanuel.sakam@ensea.edu.ci
@@ -39,9 +39,9 @@ pour des entreprises et des institutions ivoiriennes.
 
 ## Ce dépôt
 
-Code source du portfolio : HTML, CSS et JavaScript sans framework ni étape de build.
-Thème clair et sombre, affichage adapté au mobile, animations coupées quand le système demande moins de mouvements.
-En production, le dossier `site/` est servi par `busybox httpd` dans une image Docker d'environ 5 Mo.
+Le code de mon portfolio. J'ai gardé quelque chose de simple : du HTML, du CSS et du JavaScript, sans framework ni étape de build.
+Le site a un thème clair et un thème sombre, et le fond animé s'arrête si le système demande moins d'animations.
+En production, le dossier `site/` tourne dans une image Docker BusyBox d'environ 5 Mo, ce qui coûte presque rien sur Railway.
 
 ```
 site/          page, styles, script, photo, CV et image de partage
